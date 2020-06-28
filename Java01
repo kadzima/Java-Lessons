@@ -1,0 +1,44 @@
+https://www.codewars.com/kata/keep-hydrated-1/train/javascript
+
+
+function litres(time) {
+  return Math.floor(time * 0.5);
+}
+
+//
+
+https://www.codewars.com/kata/grasshopper-messi-goals-function/train/javascript
+
+function goals (laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
+   return ( laLigaGoals + copaDelReyGoals + championsLeagueGoals)
+}
+
+
+https://www.codewars.com/kata/grasshopper-terminal-game-move-function/train/javascript
+
+function move (position, roll) {
+ var currentPosition;
+ var Roll;
+
+ return ( position + (roll*2))
+} 
+
+https://www.codewars.com/kata/be-concise-i-the-ternary-operator/train/javascript
+
+function describeAge(age) {
+  if (age <= 12) {
+    return "You're a(n) kid";
+  } 
+  else if (age >= 13 && age <= 17) 
+  {
+    return "You're a(n) teenager";
+  } 
+  else if (age >= 18 && age <= 64) 
+  {
+    return "You're a(n) adult";
+  } 
+  else
+  {
+       return "You're a(n) elderly";
+  }
+}
